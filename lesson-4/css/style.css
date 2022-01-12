@@ -1,0 +1,38 @@
+.product__item,
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.product__item {
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: left;
+}
+
+.product__photo {
+    width: 20%;
+}
+
+.product__title,
+.product__price {
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.product__price {
+    color: red;
+}
+
+.button {
+    justify-content: center;
+}
+
+#button_product {
+    margin: 20px;
+    padding: 16px;
+    color: white;
+    background-color: #2b88cd;
+    border: none;
+    outline: none;
+}
