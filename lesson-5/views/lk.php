@@ -1,0 +1,1 @@
+<ph1><?= $_COOKIE['name']?> <?= $_COOKIE['surname']?></h1>
